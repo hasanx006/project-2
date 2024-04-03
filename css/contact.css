@@ -1,0 +1,20 @@
+*{margin:0;padding:0}
+body {font-family:arial;font-size:16px;line-height:22px;color:#666;background:#ddd}
+.fix {overflow:hidden}
+.main {width:946px;margin:20px auto;display:block;overflow:hidden;background:#fff}
+.nav {width:906px; height:50px; background-color: #53698f; color:#fff; display: flex; 
+	justify-content: space-between; align-items: center; padding:0px 20px; 
+	position: fixed; top:0; z-index: 1}
+.logo{font-size: 38px; font-weight: bold}
+.menu{width:65%; display: flex; justify-content: right; list-style: none; margin-right:20px; margin-left:-30px}
+.menu li{margin-left: 20px;}
+.menu li a{font-size: 17px; color:#fff; text-decoration: none; transition: 0.3s ease}
+.menu li :hover {color:#ddd}
+.slider {margin-top:30px}
+.maincontact {}
+.contact-1 {float:left;margin-left:20px}
+.contact-2 {float: left; margin-left: 160px}
+.contact-3 {float:right; margin-right:20px}
+.footer {padding:10px;background:#BBBBBB;margin-top:25px; margin-top:180px}
+.footer center p a {color:#000;text-decoration:none;list-style:none}
+.footer center p a:hover {color:#8000FF}

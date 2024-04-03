@@ -1,0 +1,31 @@
+*{margin:0;padding:0}
+body {font-family:arial;font-size:16px;line-height:22px;color:#666;background:#ddd}
+.fix {overflow:hidden}
+.main {width:946px;margin:20px auto;display:block;overflow:hidden;background:#fff}
+.nav {width:906px; height:50px; background-color: #53698f; color:#fff; display: flex; 
+	justify-content: space-between; align-items: center; padding:0px 20px; 
+	position: fixed; top:0; z-index: 1}
+.logo{font-size: 38px; font-weight: bold}
+.menu{width:65%; display: flex; justify-content: right; list-style: none; margin-right:20px; margin-left:-30px}
+.menu li{margin-left: 20px;}
+.menu li a{font-size: 17px; color:#fff; text-decoration: none; transition: 0.3s ease}
+.menu li :hover {color:#ddd}
+.header {margin-top:70px}
+.services {}
+
+.services-line-1 {margin-top:70px}
+
+.services-1 {float:left;margin-left:40px;padding:10px;background:#8DADAA;box-shadow:2px 3px 7px black}
+.services-2 {float:left;margin-left:107px;padding:10px;background:#8DADAA;box-shadow:2px 3px 7px black}
+.services-3 {float:right;margin-right:40px;padding:10px;background:#8DADAA;box-shadow:2px 3px 7px black}
+
+
+.services-line-2 {margin-top:170px}
+
+.services-4 {float:left;margin-left:40px;padding:10px;background:#8DADAA;box-shadow:2px 3px 7px black;margin-bottom:20px}
+.services-5 {float:left;margin-left:107px;padding:10px;background:#8DADAA;box-shadow:2px 3px 7px black;margin-bottom:20px}
+.services-6 {float:right;margin-right:40px;padding:10px;background:#8DADAA;box-shadow:2px 3px 7px black;margin-bottom:20px}
+.footer {padding:10px;background:#BBBBBB;margin-top:25px;}
+.footer center p a {color:#000;text-decoration:none;list-style:none}
+.footer center p a:hover {color:#8000FF}
+
